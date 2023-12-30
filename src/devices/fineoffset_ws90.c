@@ -168,7 +168,7 @@ r_device const fineoffset_ws90 = {
         .modulation  = FSK_PULSE_PCM,
         .short_width = 58,
         .long_width  = 58,
-        .reset_limit = 3000,
+        .reset_limit = 1500,
         .decode_fn   = &fineoffset_ws90_decode,
         .fields      = output_fields,
 };
